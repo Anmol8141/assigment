@@ -6,18 +6,18 @@
     <title>LOGIN PAGE</title>
 </head>
 <body>
- <h1>REGISTRATION PAGE </h1>
+ <h1 style ="background-color:rgb(230,150,50);">REGISTRATION PAGE </h1>
  <form action="LoginPage.php" method="POST">
     <lable> Name </lable>
-    <input type= "text" name="Name"><br><hr><br>
+    <input type= "text" name="Name" required><br><hr><br>
     <lable> Email </lable>
-    <input type= "text" name="Email"><br><hr><br>
+    <input type= "email" name="Email" required><br><hr><br>
     <lable> Contact </lable>
-    <input type= "text" name="Contact"><br><hr><br>
+    <input type= "text" name="Contact" required><br><hr><br>
     <lable> Pass </lable>
-    <input type= "password" name="Pass"><br><hr><br>
+    <input type= "password" name="Pass" required><br><hr><br>
     <lable>ConfirmPass </lable>
-    <input type= "password" name="ConfirmPass"><br><hr><br>
+    <input type= "password" name="ConfirmPass" required><br><hr><br>
     
     <button type="Submit">SUBMIT</button>
 </form>

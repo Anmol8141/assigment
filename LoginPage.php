@@ -16,11 +16,11 @@ $ConfirmPass=$_POST['ConfirmPass'];
 if($Pass==$ConfirmPass)
     {
       echo"succesfully logined";
-$sql= "INSERT INTO `Students` (`Name`,`Email`,`Contact`,`Pass`,`ConfirmPass`) VALUES ('$Name','$Email','$Contact','$Pass','$ConfirmPass')";
+$sql= "INSERT INTO `Student` (`Name`,`Email`,`Contact`,`Pass`,`ConfirmPass`) VALUES ('$Name','$Email','$Contact','$Pass','$ConfirmPass')";
 $rs = mysqli_query($conn,$sql);
 if($rs>0)
 {
-  echo"Connect Records Inserted"; 
+  echo("Connect Records Inserted"); 
 }
   
      

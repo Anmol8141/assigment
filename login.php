@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>OTHER OPTIONS</h1>
+<h1 style ="background-color:rgb(230,150,50);">OTHER OPTIONS</h1>
  <form action="messanger.php" method="POST">
     <button type="Submit">MESSANGER</button>
     </form>
